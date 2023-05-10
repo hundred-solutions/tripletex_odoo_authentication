@@ -6,6 +6,7 @@ from odoo.exceptions import UserError
 
 class SessionTokenWizard(models.TransientModel):
     _name = 'token.wizard'
+    _description = "token.wizard here is a wizard"
 
     expire_date = fields.Date()
 
